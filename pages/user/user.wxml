@@ -1,0 +1,62 @@
+
+  <!-- <view wx:if="{{userinfo.avatarUrl}}" class="user_img_wrap">
+    <image class="user_bg" src="../../images/user_head.png"></image>
+    <view class="user_info">
+      <image class="user_icon" src="../../images/user_head.png"></image>
+      <view class="user_name">{{userinfo.nickName}}</view>
+    </view>
+  </view>
+  <view wx:else class="user_btn">
+    <button type="primary" plain open-type="getUserProfile" bindgetuserinfo="handleGetUserInfo">登录</button>
+  </view> -->
+  <!-- <view class="user_img_wrap">
+    <image class="user_bg" src="../../images/user_head.png"></image>
+    <view class="user_info">
+      <image class="user_icon" src="../../images/user_head.png"></image>
+      <view class="user_name">{{userinfo.nickName}}</view>
+    </view>
+  </view> -->
+  <view class="user_">
+    <image  class="user_bg" src="{{user_message.user_img}}"></image>
+    <view class="user_message">
+     <view class="user_msg">
+      <image class="user_icon" src="{{user_message.user_img}}"></image>
+      <view class="user_text">
+        <view  class="user_name"><text>{{user_message.name}}</text></view>
+      <view class="qianming"><text>{{user_message.user_geqian}}</text></view>
+      </view>
+     </view>
+    </view>
+  </view>
+
+<view class="main">
+  <view class = "main_up">
+    <navigator class="gerenzhuye">
+      <image src="../../images/icon.png"></image>
+      <view>个人中心</view>
+    </navigator>
+   <navigator class="my_bi">
+    <image src="../../images/icon.png"></image>
+    <view>我的乒乓币</view>
+   </navigator>
+   <navigator class="record">
+    <image src="../../images/icon.png"></image>
+    <view>约战记录</view>
+   </navigator>
+   <navigator class="freshman">
+    <image src="../../images/icon.png"></image>
+     <view>新手攻略</view>
+   </navigator>
+  </view>
+  <view class="main_dowm">
+    <navigator class="feedback">
+      <image src="../../images/icon.png"></image>
+     <view>意见反馈</view>
+    </navigator>
+    <navigator class="about">
+      <image src="../../images/icon.png"></image>
+     <view>关于我们</view>
+    </navigator>
+  </view>
+  
+</view>

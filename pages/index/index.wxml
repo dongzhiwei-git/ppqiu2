@@ -1,0 +1,51 @@
+<view class="index_swiper">
+  <swiper autoplay interval="5000" circular indicator-dots>
+    <swiper-item 
+    wx:for="{{swiperList}}"
+    >
+    <navigator>
+      <image mode="widthFix" src="{{item.imgname}}"></image>
+    </navigator>
+    </swiper-item>
+  </swiper>
+</view>
+
+<view class="index_cakes">
+<view
+    wx:for="{{cateList}}"
+  >
+    <navigator>
+      <image mode="widthFix" src="{{item.imgname}}"></image>
+    </navigator>
+</view>
+</view>
+<view class="dynamic"> 乒乓动态</view>   
+<!-- 回头放图片进来 -->
+
+<view class="dongtai">
+  <navigator class="contents"
+    wx:for="{{data}}"
+    url="/pages/dongtaicenter/dongtaicenter"
+  >
+  <view class="contents_title shenglue"><text>{{item.title}}</text></view>
+  <navigator class="user_message">
+    <image mode="widthFix" class="user_head" src="{{item.user_head}}"></image>
+    <view class="user_name"><text>{{item.user_name}}</text></view>
+  </navigator>
+  <view class="contents_text shenglue"><text>{{item.contents}}</text></view>
+  <view class="contents_">
+    <view class="dianzan">{{item.dznum}} 点赞</view>
+    <view class="pinglun">{{item.plnum}} 评论</view>
+  </view>
+</navigator>
+</view>
+
+<!-- <view class="page">
+  <view class="weui-slidecells">
+        <mp-slideview buttons="{{slideButtons}}" icon="{{true}}" bindbuttontap="slideButtonTap">
+          <view class="weui-slidecell">
+            左滑可以删除（图标Button）
+          </view>
+        </mp-slideview>
+      </view>
+</view> -->

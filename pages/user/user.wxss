@@ -1,0 +1,172 @@
+page{
+  background-color: #ffffff;
+}
+
+.user_{
+  height: 18vh;
+  overflow: hidden;
+  background-color: var(--themeColor);
+  position: relative;
+}
+
+.user_bg{
+  height: 18vh;
+  filter: blur(10rpx);
+}
+
+.user_message{
+  height: 100%;
+  position: absolute ;
+  top: 0vh;
+}
+.user_msg{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10rpx;
+}
+.user_icon{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  margin-left: 60rpx;
+  margin-right: 30rpx;
+}
+.user_text{
+  height: 100%;
+  display: flex;
+  margin-top: 70rpx;
+  padding-left: auto 20rpx;
+  /* align-items: center; */
+  flex-direction: column;
+  font-size: 35rpx;
+  line-height: 1.5rem;
+  letter-spacing: 7rpx;
+}
+.user_name{
+  letter-spacing: 3rpx;
+  margin-bottom: 20rpx;
+}
+
+.mian{
+  display: flex;
+  flex-direction: column;
+}
+
+.main_up{
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 65rpx;
+  font-size: 40rpx;
+  background-color: white
+}
+
+.gerenzhuye{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 25%;
+  padding: 20rpx;
+  border-bottom: 1px solid #BCD2EE;
+}
+.gerenzhuye image{
+  width: 85rpx;
+  height: 85rpx;
+  margin: auto 15rpx;
+  margin-right: 20rpx;
+  border-radius: 50%;
+}
+
+.my_bi{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 25%;
+  padding: 20rpx;
+  border-bottom: 1px solid #BCD2EE;
+}
+.my_bi image{
+  width: 85rpx;
+  height: 85rpx;
+  margin: auto 15rpx;
+  margin-right: 20rpx;
+  border-radius: 50%;
+}
+.record{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 25%;
+  padding: 20rpx;
+  border-bottom: 1px solid #BCD2EE;
+}
+.record image{
+  width: 85rpx;
+  height: 85rpx;
+  margin: auto 15rpx;
+  margin-right: 20rpx;
+  border-radius: 50%;
+}
+.freshman{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 25%;
+  padding: 20rpx;
+  border-bottom: 1px solid #BCD2EE;
+}
+.freshman image{
+  width: 85rpx;
+  height: 85rpx;
+  margin: auto 15rpx;
+  margin-right: 20rpx;
+  border-radius: 50%;
+}
+
+.main_dowm{
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 45rpx;
+  font-size: 40rpx;
+  background-color: white
+}
+
+.feedback{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 25%;
+  padding: 20rpx;
+  border-bottom: 1px solid #BCD2EE;
+}
+.feedback image{
+  width: 85rpx;
+  height: 85rpx;
+  margin: auto 15rpx;
+  margin-right: 20rpx;
+  border-radius: 50%;
+}
+.about{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 25%;
+  padding: 20rpx;
+  border-bottom: 1px solid #BCD2EE;
+}
+.about image{
+  width: 85rpx;
+  height: 85rpx;
+  margin: auto 15rpx;
+  margin-right: 20rpx;
+  border-radius: 50%;
+}
