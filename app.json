@@ -1,14 +1,16 @@
 {
   "pages":[
+    "pages/user/user",
+    "pages/login/login",
     "pages/index/index",
     "pages/rank/rank",
     "pages/partner/partner",
-    "pages/user/user",
+    
     "pages/dongtaicenter/dongtaicenter"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#2674da",
+    "navigationBarBackgroundColor": "#f2b48a",
     "navigationBarTitleText": "约球乒乓",
     "navigationBarTextStyle":"white"
   },

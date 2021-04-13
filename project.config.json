@@ -1,10 +1,11 @@
 {
   "description": "项目配置文件",
+  "cloudfunctionRoot": "cloudfunctions/",
   "packOptions": {
     "ignore": []
   },
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
     "es6": true,
     "enhance": false,
     "postcss": true,
@@ -21,9 +22,8 @@
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
     "compileHotReLoad": false,
-    "useMultiFrameRuntime": true,
+    "useMultiFrameRuntime": false,
     "useApiHook": true,
-    "useApiHostProcess": false,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -34,15 +34,14 @@
     "useIsolateContext": true,
     "useCompilerModule": true,
     "userConfirmedUseCompilerModuleSwitch": false,
-    "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
     "minifyWXSS": true
   },
   "compileType": "miniprogram",
-  "libVersion": "2.16.0",
-  "appid": "wxd82b8ed1f9da0a0b",
-  "projectname": "test",
+  "libVersion": "2.12.0",
+  "appid": "wx9774aad0d4012525",
+  "projectname": "ppqiu",
   "debugOptions": {
     "hidedInDevtools": []
   },
@@ -52,24 +51,26 @@
     "servePath": ""
   },
   "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
   "condition": {
-    "search": {
-      "list": []
-    },
-    "conversation": {
+    "plugin": {
       "list": []
     },
     "game": {
-      "list": []
-    },
-    "plugin": {
       "list": []
     },
     "gamePlugin": {
       "list": []
     },
     "miniprogram": {
-      "list": []
+      "list": [
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "scene": null
+        }
+      ]
     }
   }
 }

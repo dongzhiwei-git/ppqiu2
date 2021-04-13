@@ -2,6 +2,8 @@
 // 获取应用实例
 const app = getApp()
 
+
+
 Page({
   data: {
     swiperList:[
@@ -16,9 +18,6 @@ Page({
       }
     ],
     cateList:[
-      {
-        imgname:"../../images/icon_index_nav_4@2x.png"
-      },
       {
         imgname:"../../images/icon_index_nav_4@2x.png"
       },
@@ -69,5 +68,29 @@ Page({
     ]
   },
   // 事件处理函数
+  scanCode (){
+    wx.scanCode({
+      success (res) {
+        console.log(res)
+      }
+    })
+    
+    // 只允许从相机扫码
+    wx.scanCode({
+      onlyFromCamera: true,
+      success (res) {
+        console.log(res)
+      }
+    })
+  },
+  onLoad: function (options) {
+    wx.cloud.init()
+    wx.cloud.callFunction({
+      name: "userInfo" }).then(res =>{
+      console.log(res)
+    })
+    
+  }
+  
   
 })

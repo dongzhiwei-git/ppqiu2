@@ -31,7 +31,7 @@
 
 <view class="main">
   <view class = "main_up">
-    <navigator class="gerenzhuye">
+    <navigator class="gerenzhuye" url="../login/login">
       <image src="../../images/icon.png"></image>
       <view>个人中心</view>
     </navigator>

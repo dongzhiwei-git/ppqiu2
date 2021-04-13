@@ -14,12 +14,13 @@
 <view
     wx:for="{{cateList}}"
   >
-    <navigator>
-      <image mode="widthFix" src="{{item.imgname}}"></image>
-    </navigator>
+   
+      <image mode="widthFix" bindtap="scanCode" class="naviImg" src="{{item.imgname}}"></image>
+   
 </view>
 </view>
-<view class="dynamic"> 乒乓动态</view>   
+<image class="dongtaiLogo" src="../../images/dongtaiLogo.png"></image>
+<view class="dynamic">动态</view>   
 <!-- 回头放图片进来 -->
 
 <view class="dongtai">
@@ -28,8 +29,8 @@
     url="/pages/dongtaicenter/dongtaicenter"
   >
   <view class="contents_title shenglue"><text>{{item.title}}</text></view>
-  <navigator class="user_message">
-    <image mode="widthFix" class="user_head" src="{{item.user_head}}"></image>
+  <navigator class="user_message"  url="/pages/dongtaicenter/dongtaicenter">
+    <image  class="user_head" src="{{item.user_head}}" ></image>
     <view class="user_name"><text>{{item.user_name}}</text></view>
   </navigator>
   <view class="contents_text shenglue"><text>{{item.contents}}</text></view>
